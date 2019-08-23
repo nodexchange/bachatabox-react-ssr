@@ -1,9 +1,4 @@
-export default ({
-    appString,
-    js,
-    styles,
-    helmet,
-}) => `
+export default ({ appString, js, styles, helmet }) => `
     <!doctype html>
     <html>
     <head>
@@ -16,11 +11,8 @@ export default ({
         ${helmet.title.toString()}
     </head>
     <body>
-    
       <div id="react-root">${appString}</div>
-      
       ${js}
-      
     </body>
     </html>
 `;

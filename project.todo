@@ -1,0 +1,246 @@
+BACKEND:
+    ☐ admin form - check if object instead -- if (keyName === 'title' || keyName === 'description' || keyName === 'buttonText'). @high
+    ☐ Google Plus Publisher profile. @high
+    ☐ Description relevancy to page content is poor. @high
+    ☐ Twitter card is not used. @high
+    ☐ Open Graph is not used. @high
+    ☐ Accelerated Mobile Pages. @high
+    ☐ Data Highlighter. @high
+    ☐ Rich snippets for Google and Bing (Dance Artists, Music, Music Artists, Videos, Daniel y Desiree) @low
+    ☐ Structured Data. @high
+    ☐ playlists section. @low
+    ☐ [notification] share action. @low
+    ☐ [notification] 20+ views daily on something maybe?. @low
+    ☐ [notification] clicks on social panel (networks fb youtube etc.) @low
+    ☐ clean up / refactor requests (isolate core request). @low
+    ☐ Artists insight, how many posted to which. @low
+    ☐ Content performance charts (what works, how many clicks, views, plays etc. ). @low
+    ☐ USE YOUTUBE API TO VERIFY LAST PUBLISHED VIDEOS, CHECK THE VIEW COUNT, PUBLISHED DATE, AND DUPLICATES, PULL THEM DOWN TO RECOMMENDED CMS CONTENT. @low
+    ☐ Locale for posts, videos, artist page etc. @low
+    ☐ Think about the image sources (free aws) or build service to save them? @low
+    ☐ create new tag from the tags selection component (plus sign?). @low
+    ☐ PUBLISH TO FACEBOOK NEW POSTS ETC. @low
+    ☐ Utilise JEST for comprehensive testing. @low
+    ☐ Locale to be managed via the admin. @low
+    ☐ Admin panel to render image preview. @low
+    ☐ Admin panel to video preview. @low
+    ☐ Admin panel to check if videos are working across all site content. @low
+    ☐ Admin preview post and view live article (link above delete?). @low
+    ☐ migrate navigation to the json. @low
+    ☐ migrate routes to translations json pages. @low
+FRONT END:
+    ☐ Custom Load Icon  @low
+    ☐ SHARE ICON.  @low
+    ☐ find and remove references to the bachatabox.co (i.e. test facebook link) @low
+    ☐ artist profile to take user to biography @low
+    ☐ Think about copyrights, expose video authors etc.  @low
+    ☐ Copyrights - add link watch on youtube / subscribe / mark channel / artist / etc?!? @low
+    ☐ Think about copyrights, expose video authors etc.  @low
+    ☐ Tags for pages @low
+    ☐ Add country / nation element Spanish / Norwegian / US? @low
+    ☐ Artist interview tab? @low
+    ☐ Lyrics tab? @low
+    ☐ Lyrics / artist breakdown for music item? @low
+    ☐ Private content? @low
+    ☐ Items Slideshow for Home Page Player carousel. @low
+    ☐ Disqus to open up comments. @low
+
+USER Registration / Login:
+    ☐ Login page for users.
+    ☐ registration page for users.
+    ☐ Account page for users.
+    ☐ Users Playlists.
+    ☐ Repeat / Shuffle for registered users.
+    ☐ Email notifiction for users.
+
+Monetarisation:
+    ☐ Footer floating advert.
+    ☐ VAST / VPAID Ads for the player.
+    ☐ DMP connection for future audience management.
+    ☐ Leaderboard in between sections.
+
+Facebook:
+    ✔ Update page to reflect new branding. @done (22/01/2017, 01:18:03)
+    ☐ Run adverts to spike facebook traffic.
+
+COMPLETED:
+    BACKEND:
+    ✔ redirect url on video page if things go wrong. @low @done (18/01/2017, 07:52:41)
+    ✔ video banner multiregion saves overrides. @high @done (16/01/2017, 02:48:18)
+    ✔ force locale for home page localised routes. @critical @done (15/01/2017, 04:48:04)
+    ✔ home title and home description. @high @done (14/01/2017, 10:13:10)
+    ✔ hreflang tags for the footer. @high @done (14/01/2017, 10:12:18)
+    ✔ test meta description update. @high @done (13/01/2017, 01:26:12)
+    ✔ shorten the title (60 char max). @high @done (13/01/2017, 01:26:13)
+    ✔ meta key words missing (60 char max). @high @done (13/01/2017, 01:26:14)
+    ✔ Google Plus Publisher | Publisher is not connected to Google Plus. @high @done (13/01/2017, 01:45:01)
+    ✔ tabs translations @low @done (13/01/2017, 02:35:06)
+    ✔ h1 + h2 tags for pages @low @done (13/01/2017, 02:35:05)
+    ✔ carousel error on related videos tab @low @done (13/01/2017, 02:35:07)
+    ✔ this.context broken for login page. @critical @done (10/01/2017, 14:04:12)
+    ✔ Pages with duplicate meta descriptions. @high @done (11/01/2017, 00:23:09)
+    ✔ update translations for meta descriptions. @high @done (11/01/2017, 00:15:23)
+    ✔ meta descriptions for artists, videos, staff etc. @high @done (11/01/2017, 00:23:13)
+    ✔ Duplicate title tags @high @done (11/01/2017, 00:23:16)
+    ✔ language string in the routes (en-US, es-ES, pl-PL). @low @done (09/01/2017, 09:07:36)
+    ✔ IP Country / Location redirection to locale. @low @done (09/01/2017, 09:07:39)
+    ✔ dependencies update to the latest!! @high @done (07/01/2017, 21:45:43)
+    ✔ /staffpicks/ fix broken link. @low @done (07/01/2017, 04:26:00)
+    ✔ search text doesn't update on language switch. @low @done (07/01/2017, 02:28:48)
+    ✔ carousel sections / localised fails to load. @low @done (07/01/2017, 02:17:09)
+    ✔ footer links fails to load. @low @done (06/01/2017, 05:03:33)
+    ✔ owl carosuel to use localised routes / sections.  @low @done (04/01/2017, 08:29:47)
+    ✔ search engine still sees the data token (dance-artist).  @low @done (04/01/2017, 07:50:48)
+    ✔ Playlist admin - items to be hyperlinks or roll overs / delete icon. @low @done (02/01/2017, 03:01:21)
+    ✔ Playlist admin. @low @done (01/01/2017, 19:34:07)
+    ✔ admin notification panel (new reactions etc). @low @done (19/12/2016, 00:39:33)
+    ✔ [notification] last admin login (+ip). @low @done (19/12/2016, 00:39:35)
+    ✔ [notification] reactions. @low @done (19/12/2016, 00:39:38)
+    ✔ return sitemap @high @done (27/11/2016, 14:12:16)
+    ✔ Page views ISSUE @critical @done (27/11/2016, 12:36:37)
+    ✔ Playlist model. @low @done (22/11/2016, 00:51:32)
+    ✔ h1 tags for owl [high seo issue] @critical @done (22/11/2016, 00:51:48)
+    ✔ Test require css (plyr) @critical @done (18/11/2016, 03:50:45)
+    ✔ move quicksand to sass? @critical @done (18/11/2016, 03:50:43)
+    ✔ tags for admin page. @low @done (16/11/2016, 11:06:59)
+    ✔ localised type in search demo. @low @done (13/11/2016, 18:11:03)
+    ✔ Change name of the home carousel to carousel. @low @done (13/11/2016, 17:35:47)
+    ✔ Improve LOGIN EVENT GA (test for data object). @high @done (13/11/2016, 03:29:07)
+    ✔ Fix Homepage Title. @high @done (12/11/2016, 23:00:24)
+    ✔ Tags Page. @high @done (13/11/2016, 03:29:01)
+    ✔ Tabs metrics (how many clicks etc). @low @done (09/11/2016, 23:03:39)
+    ✔ Improve google analytics. @low @done (09/11/2016, 23:02:52)
+    ✔ Logs and error collection (i.e. failed to fetch data in 25s). @low @done (08/11/2016, 03:20:24)
+    ✔ Fix created_by field. @low @done (08/11/2016, 02:33:32)
+    ✔ Publish date to be legible on the table. @low @done (08/11/2016, 02:27:51)
+    ✔ error logs delete @low @done (08/11/2016, 02:25:50)
+    ✔ fetch assosciated posts. @low @done (02/11/2016, 18:43:39)
+    ✔ Login to be moved to external json @low @done (02/11/2016, 18:47:44)
+    ✔ Improve on duplicated navigation calls. @low @done (02/11/2016, 18:47:08)
+    ✔ Partial component for Data promise with callback (look at APP.js HELMET / LISTEN ETC). @high @done (17/10/2016, 22:04:34)
+    ✔ FIX update / new / clear (maybe isolate it)? @high @done (25/10/2016, 16:45:17)
+    ✔ Test banners and tags. @high @done (25/10/2016, 16:45:10)
+    ✔ connect sections to banners. @high @done (26/10/2016, 00:31:54)
+    ✔ Banner status update issue. @high @done (26/10/2016, 00:31:56)
+    ✔ location unavailable upon initial load. @high @done (26/10/2016, 00:31:59)
+    ✔ Fetch assets from personal servers like ONE Creative. @low @done (29/10/2016, 16:21:11)
+    ✔ SECURE THE POST & PUT APIs! @low @done (29/10/2016, 16:21:05)
+    ✔ Admin for video panels. @low @done (27/10/2016, 14:39:15)
+    ✔ tags selection component. @low @done (27/10/2016, 14:39:26)
+    ✔ Video banner on artists to utlise video field. @low @done (27/10/2016, 14:39:36)
+    ✔ dislikes. @low @done (17/10/2016, 22:04:51)
+    ✔ query select - to speed up indexes (http://mongoosejs.com/docs/queries.html). @low @done (17/10/2016, 22:04:50)
+    ✔ Admin Subsection dashboard to feature all 404s for datainsight. @low @done (27/10/2016, 14:39:48)
+    ✔ Video banner: https://www.youtube.com/watch?v=NdTdX4_aQHo. @low @done (15/10/2016, 22:04:40)
+    ✔ Facebook Like button. @low @done (15/10/2016, 22:02:12)
+    ✔ Click on admin row to select data. @done
+    ✔ connect data to all necessary components. @critical @done (03/10/2016, 00:32:18)
+    ✔ Update data grid / posts via ADMIN panel. @critical @done (27/09/2016, 00:14:00)
+    ✔ URL Slugs to be used. @critical @done (03/10/2016, 00:32:14)
+    ✔ Home Page carousel to be mongoose connected. @critical @done (03/10/2016, 00:32:22)
+    ✔ View count to display correct amounts. @high @done (04/10/2016, 17:33:21)
+    ✔ Admin table pagination. @high @done (06/10/2016, 15:55:22)
+    ✔ Match slugs or redirect with Ghost bachatabox. @high @done (09/10/2016, 05:56:48)
+    ✔ Admin panel to feature correct mongoDB data. @high @done (03/10/2016, 00:32:06)
+    ✔ Comprehensive Google analytics data. @high @done (10/10/2016, 12:00:58)
+    ✔ admin panel to feature LOGIN. @high @done (09/10/2016, 13:37:26)
+    ✔ Correct Clicks value. @high @done (04/10/2016, 17:33:37)
+    ✔ Correct Video View value. @high @done (04/10/2016, 17:33:40)
+    ✔ Correct Video Complete value. @high @done (04/10/2016, 17:33:43)
+    ✔ Draft and dropdowns on admin to be set via data. @high @done (03/10/2016, 00:33:26)
+    ✔ Like button. @low @done (11/10/2016, 01:10:18)
+    ✔ Fix published_by. @low @done (11/10/2016, 00:59:13)
+    ✔ Fix updated_by. @low @done (11/10/2016, 00:59:15)
+    ✔ Loading icon for data refresh. @low @done (27/09/2016, 00:46:09)
+
+FRONT END:
+    ✔ hide arrows if number of items is below 5 @low @done (17/01/2017, 10:24:48)
+    ✔ Improve 404 page? owl-icons on the 404 page (?) / related content maybe @low @done (18/01/2017, 07:52:03)
+    ✔ STAFF PICKS section. @low @done (07/01/2017, 02:22:10)
+    ✔ Fix STAFF PICKS. @low @done (01/01/2017, 20:53:32)
+    ✔ playlists @low @done (01/01/2017, 19:35:07)
+    ✔ playlists page (currently referes to tags logic) @low @done (01/01/2017, 19:34:11)
+    ✔ FavIcon improvement. @low @done (07/12/2016, 21:33:02)
+    ✔ Section Labels to open Sub Sections (localised routes handler). @high @done (28/11/2016, 21:15:55)
+    ✔ Navigation to redirected to localised routes (/music/ or /musica/) @low @done (28/11/2016, 21:15:58)
+    ✔ Menu to use Locale @low @done (28/11/2016, 21:16:00)
+    ✔ Navigation menu to use locale @low @done (28/11/2016, 21:16:02)
+    ✔ Labels to use locale @low @done (28/11/2016, 21:16:17)
+    ✔ Footer to use locale @low @done (28/11/2016, 21:53:25)
+    ✔ Polish locale @low @done (06/12/2016, 00:47:08)
+    ✔ locale flags @low @done (06/12/2016, 00:47:11)
+    ✔ search field locale @low @done (06/12/2016, 17:47:48)
+    ✔ banner locale @low @done (06/12/2016, 17:47:49)
+    ✔ (on mobile and tablet) overflow-x: hidden. @low @done (27/11/2016, 13:45:39)
+    ✔ Animate heart for reactions @high @done (20/11/2016, 21:53:12)
+    ✔ biograpahies tag @high @done (20/11/2016, 21:53:15)
+    ✔ biograpahies tag @high @done (18/11/2016, 16:57:18)
+    ✔ markdown smaller pictures. @high @done (20/11/2016, 21:19:26)
+    ✔ footer localisation? @low @done (16/11/2016, 15:44:21)
+    ✔ Post footer artist to load a specific artist. @low @done (16/11/2016, 15:44:20)
+    ✔ markdown posts for small screens @high @done (16/11/2016, 15:41:45)
+    ✔ owl cards small screens @high @done (16/11/2016, 15:41:48)
+    ✔ BachataBox on small device screens @critical @today @done (15/11/2016, 16:58:43)
+    ✔ Logo icon on small device screens @high @done (15/11/2016, 16:58:44)
+    ✔ biography to use Quicksand @high @done (13/11/2016, 16:21:55)
+    ✔ related biographies @high @done (13/11/2016, 16:21:33)
+    ✔ new banners (tag section, daniel y desiree biography, island touch, korke) @high @done (13/11/2016, 16:21:37)
+    ✔ Footer links(about etc.)?!? @high @done (13/11/2016, 17:34:37)
+    ✔ magnifying glass. @high @done (13/11/2016, 17:03:59)
+    ✔ SEARCH TUTORIAL / Google Doc attention to new features. @low @done (13/11/2016, 03:29:55)
+    ✔ Tags for Search @low @done (13/11/2016, 03:29:33)
+    ✔ Investigate OWL failing when loaded from the article! (maybe check if failed and then re-load it?) @high @done (11/11/2016, 01:26:53)
+    ✔ HOME to show more videos @high @done (11/11/2016, 01:26:56)
+    ✔ Home Page improvements (Music / Songs isolated from NEW VIDEOS). @high @done (11/11/2016, 01:27:02)
+    ✔ Related video to the current artist or type? @low @done (02/11/2016, 18:52:44)
+    ✔ VIDEO BANNER HOME PAGE @low @done (02/11/2016, 18:50:41)
+    ✔ VIDEO BANNER MUSIC PAGE @low @done (02/11/2016, 18:50:40)
+    ✔ VIDEO BANNER ARTIST PAGE @low @done (02/11/2016, 18:50:40)
+    ✔ VIDEO BANNER DANCE PAGE @low @done (02/11/2016, 18:50:40)
+    ✔ VIDEO BANNER VIDEOS PAGE @low @done (02/11/2016, 18:50:39)
+    ✔ VIDEO BANNER ARTIST PAGE @low @done (02/11/2016, 18:50:38)
+    ✔ Verify contact us section. @high @done (29/10/2016, 16:21:50)
+    ✔ 404 improvement, fail the page load after 10s @low @done (02/11/2016, 18:45:09)
+    ✔ TAGS? @low @done (02/11/2016, 18:45:14)
+    ✔ Section swap carousel issue @high @done (17/10/2016, 22:04:12)
+    ✔ Back button from sub section @high @done (21/10/2016, 16:11:18)
+    ✔ PAGE META TITLE AND DESC @high @done (21/10/2016, 15:33:16)
+    ✔ search close icon @low @done (17/10/2016, 22:04:17)
+    ✔ Animate close button. @low @done (22/10/2016, 17:16:41)
+    ✔ Artists section relevant carousels?. @low @done (17/10/2016, 22:06:01)
+    ✔ Music sections / Relevant carousels. @low @done (17/10/2016, 22:06:03)
+    ✔ Improve style of cards @high @done (15/10/2016, 20:59:02)
+    ✔ Facebook LIKE button @high @done (15/10/2016, 22:02:05)
+    ✔ Improve SEARCH FOR HOME PAGE? @low @done (15/10/2016, 20:49:10)
+    ✔ YouTube video content to work and report correctly (maybe API?). @critical @done (04/10/2016, 17:34:04)
+    ✔ search to navigate to post @high @done (15/10/2016, 20:44:14)
+    ✔ Post footer to feature all necessary options. @critical @done (11/10/2016, 00:59:42)
+    ✔ Post footer layout @critical @done (11/10/2016, 01:09:03)
+    ✔ Music item section (probably same as video to begin with, later on lyrics, artist breakdown etc). @critical @done (12/10/2016, 00:18:25)
+    ✔ Video item section layout. @critical @done (12/10/2016, 00:18:19)
+    ✔ Artist section / think about the html render (markdown formatting render?). @critical @done (09/10/2016, 05:57:04)
+    Homepage:
+        ✔ thumbs to utilise the mongodb data (title images etc). @critical @done (06/10/2016, 15:56:48)
+        ✔ Latest videos. @high @done (11/10/2016, 00:59:24)
+        ✔ Most popular. @high @done (11/10/2016, 00:59:26)
+        ✔ Section priority preload (first row > second row > third row etc). @low @done (08/11/2016, 02:34:32)
+    Artists:
+        ✔ Favourite artists. @low @done (12/10/2016, 00:19:22)
+
+TODO HINTS:
+    New Task:
+        ☐ Press Cmd+Enter (Ctrl+Enter on Windows and Linux) to add a new task
+        ☐ You can also use the Command pallette to create a new task by typing To Do:New Task
+        ☐ If you are on a new line, it will create a new task on the current line
+        ☐ If you are on a line with some text pressing new task shortcut will convert it to a task
+        ☐ New tasks are nested as much as the previous task
+    More Actions:
+        ✔ Complete a task by pressing Alt+d @done
+        ☐ Re-open a completed task by pressing Alt+d
+        ✘ Cancel a task by pressing Alt+c @cancelled
+        ☐ Complete a cancelled task by pressing Alt+d
+        ☐ You can also use the Command pallette to complete or cancel a task by typing To Do:Complete Task or To Do:Cancel Task
+    Tagging:
+        ☐ You can add tags using @ sign, like this @tag
+        ☐ You can use following pre-existing tags to mark tasks @critical @high @low @today
+        ☐ Auto intellisense is provided to help you in finding tags

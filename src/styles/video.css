@@ -1,0 +1,12 @@
+.plyr-container {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 10%;
+    @media (--mq-mobile) {
+        margin-left: 10%;
+        margin-top: 40px;
+    }
+    @media (--mq-tablet) {
+       margin-top: 40px;
+    }
+}

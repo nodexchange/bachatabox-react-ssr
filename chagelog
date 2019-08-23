@@ -1,0 +1,111 @@
+BachataBox - Release document
+1.0 (14/11/16)
+    INITIAL RELEASE
+1.0.1 (15/11) ------------------------
+    ✔ BachataBox on small device screens @critical @today @done (15/11/2016, 16:58:43)
+    ✔ Logo icon on small device screens @high @done (15/11/2016, 16:58:44)
+
+1.0.2 (16/11) ------------------------
+    ✔ tags for admin page. @low @done (16/11/2016, 11:06:59)
+    ✔ markdown posts for small screens @high @done (16/11/2016, 15:41:45)
+    ✔ owl cards small screens @high @done (16/11/2016, 15:41:48)
+
+1.0.3 (18/11) -------------------------
+    ✔ Test require css (plyr) @critical @done (18/11/2016, 03:50:45)
+    ✔ move quicksand to sass? @critical @done (18/11/2016, 03:50:43)
+
+1.0.4 (22/11) -------------------------
+    ✔ h1 tags for owl [high seo issue] @critical @done (22/11/2016, 00:51:48)
+    ✔ Playlist model. @low @done (22/11/2016, 00:51:32)
+    ✔ biograpahies tag @high @done (18/11/2016, 16:57:18)
+    ✔ markdown smaller pictures. @high @done (20/11/2016, 21:19:26)
+    ✔ Animate heart for reactions @high @done (20/11/2016, 21:53:12)
+    ✔ biograpahies tag @high @done (20/11/2016, 21:53:15)
+
+1.0.5 (27/11) -------------------------
+    ✔ Page views ISSUE @critical @done (27/11/2016, 12:36:37)
+    Package.json updated to reflect the project name
+
+1.0.6 (27/11) ------------------------- Sitemap
+    ✔ return sitemap @high @done (27/11/2016, 14:12:16)
+    ✔ (on mobile and tablet) overflow-x: hidden. @low @done (27/11/2016, 13:45:39)
+
+1.1.0 (28/11) ------------------------- Languages + playlist + notification panel (start)
+    ✔ admin notification panel (new reactions etc). @low @done (19/12/2016, 00:39:33)
+    ✔ [notification] last admin login (+ip). @low @done (19/12/2016, 00:39:35)
+    ✔ [notification] reactions. @low @done (19/12/2016, 00:39:38)
+    ✔ FavIcon improvement. @low @done (07/12/2016, 21:33:02)
+    ✔ Section Labels to open Sub Sections (localised routes handler). @high @done (28/11/2016, 21:15:55)
+    ✔ Navigation to redirected to localised routes (/music/ or /musica/) @low @done (28/11/2016, 21:15:58)
+    ✔ Menu to use Locale @low @done (28/11/2016, 21:16:00)
+    ✔ Navigation menu to use locale @low @done (28/11/2016, 21:16:02)
+    ✔ Labels to use locale @low @done (28/11/2016, 21:16:17)
+    ✔ Footer to use locale @low @done (28/11/2016, 21:53:25)
+    ✔ Polish locale @low @done (06/12/2016, 00:47:08)
+    ✔ locale flags @low @done (06/12/2016, 00:47:11)
+    ✔ search field locale @low @done (06/12/2016, 17:47:48)
+    ✔ banner locale @low @done (06/12/2016, 17:47:49)
+    ✔ playlists page (currently referes to tags logic) @low @done (01/01/2017, 19:34:11)
+    ✔ Playlist admin. @low @done (01/01/2017, 19:34:07)
+    ✔ playlists @low @done (01/01/2017, 19:35:07)
+    ✔ Fix STAFF PICKS. @low @done (01/01/2017, 20:53:32)
+    ✔ Playlist admin - items to be hyperlinks or roll overs / delete icon. @low @done (02/01/2017, 03:01:21)
+
+- RELEASED - 02/01/2017 + SPANISH AND POLISH LANGUAGE
+1.1.1 (02/01/2017) ---------------------------
+    ✔ search engine still sees the data token (dance-artist).  @low @done (04/01/2017, 07:50:48)
+    ✔ owl carosuel to use localised routes / sections.  @low @done (04/01/2017, 08:29:47)
+- RELEASED - 05/01/2017
+
+1.1.2 (05/01/2017) ---------------------------
+    ✔ staff section. @low @done (07/01/2017, 02:17:09)
+    ✔ carousel sections / localised fails to load. @low @done (07/01/2017, 02:17:09)
+    ✔ footer links fails to load. @low @done (06/01/2017, 05:03:33)
+    ✔ search text doesn't update on language switch. @low @done (07/01/2017, 02:28:48)
+- RELEASED - 06/01
+
+1.2.0 (07/01/2017) ---------------------------
+    ✔ /staffpicks/ fix broken link. @low @done (07/01/2017, 04:26:00)
+    ✔ dependencies update to the latest!! @high @done (07/01/2017, 21:45:43)
+    ✔ language string in the routes (en-US, es-ES, pl-PL). @low @done (09/01/2017, 09:07:36)
+    ✔ IP Country / Location redirection to locale. @low @done (09/01/2017, 09:07:39)
+- RELEASED - 09/01
+
+1.2.1 (09/01/2017) --------------------------
+    ✔ this.context broken for login page. @critical @done (10/01/2017, 14:04:12)
+    ✔ hreflang on links. @high @done (10/01/2017, 13:53:17)
+    ✔ this.context broken for login page. @critical @done (10/01/2017, 14:04:12)
+    ✔ Pages with duplicate meta descriptions. @high @done (11/01/2017, 00:23:09)
+    ✔ update translations for meta descriptions. @high @done (11/01/2017, 00:15:23)
+    ✔ meta descriptions for artists, videos, staff etc. @high @done (11/01/2017, 00:23:13)
+    ✔ Duplicate title tags @high @done (11/01/2017, 00:23:16)
+    ✔ test meta description update. @high @done (13/01/2017, 01:26:12)
+    ✔ shorten the title (60 char max). @high @done (13/01/2017, 01:26:13)
+    ✔ meta key words missing (60 char max). @high @done (13/01/2017, 01:26:14)
+    ✔ Google Plus Publisher | Publisher is not connected to Google Plus. @high @done (13/01/2017, 01:45:01)
+    ✔ tabs translations @low @done (13/01/2017, 02:35:06)
+    ✔ h1 + h2 tags for pages @low @done (13/01/2017, 02:35:05)
+    ✔ carousel error on related videos tab @low @done (13/01/2017, 02:35:07)
+
+
+1.2.2 (13/01/2017) --------------------------
+    ✔ babel 6 fix for the latest dependencies @critical @done (13/01/2017, 11:11:07)
+
+1.2.3 (14/01/2017) --------------------------
+    ✔ hreflang tags for the footer. @high @done (14/01/2017, 10:12:18)
+    ✔ home title and home description. @high @done (14/01/2017, 10:13:10)
+
+1.2.4 (15/01/2017) --------------------------
+    ✔ force locale for home page localised routes. @critical @done (15/01/2017, 04:48:04)
+
+1.2.5 (15/01/2017) --------------------------
+    ✔ detailed sitemap. @high @done (15/01/2017, 05:20:40)
+
+1.2.6 (16/01/2017) --------------------------
+    ✔ video banner multiregion saves overrides. @high @done (16/01/2017, 02:48:18)
+
+1.2.7 (18/01/2017) --------------------------
+    ✔ redirect url on video page if things go wrong. @low @done (18/01/2017, 07:52:41)
+  FrontEnd:
+    ✔ hide arrows if number of items is below 5 @low @done (17/01/2017, 10:24:48)
+    ✔ Improve 404 page? owl-icons on the 404 page (?) / related content maybe @low @done (18/01/2017, 07:52:03)

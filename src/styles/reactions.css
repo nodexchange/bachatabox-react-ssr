@@ -1,0 +1,33 @@
+.reactions-container {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    i {
+      transform: scale(0.8);
+      position: relative;
+      left: -3px;
+      top: 0;
+    }
+}
+.reactions-love-container {
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 10px;
+    margin-left: 10px;
+    .love-icon {
+      color:red;
+      animation: pulse 1s ease 8;
+    }
+}
+.reactions-like-container {
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.reactions-dislike-container {
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 10px;
+    margin-left: 10px;
+}

@@ -1,0 +1,117 @@
+.social-top{
+	display: inline-block;
+	float: right;
+  position: absolute;
+  top:-21px;
+  right:60px;
+  @media (--mq-mobile) {
+    display:none;
+  }
+  @media (--mq-tablet) {
+    transform: scale(0.5);
+    right: 0px;
+    top:-17px;
+  }
+}
+ul.social {
+  text-align: right;
+  margin: 25px 0 20px 0;
+  @media (--mq-tablet) {
+    margin: 15px 0 10px 0;
+  }
+  li {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 34px;
+    width: 34px;
+    height: 34px;
+    border: 2px solid #ffffff;
+    margin-left: 5px;
+    text-align: center;
+    @media (--mq-tablet) {
+      margin-left: 10px;
+    }
+    &.facebookLike {
+      overflow: hidden !important;
+      width: 85px;
+      height: 35px;
+      border: 0px;
+      margin-top: 0px;
+      position: relative;
+      bottom: 5px;
+      left: 0px;
+      @media (--mq-tablet) {
+        display:none;
+      }
+    }
+  }
+  * {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+  li {
+    a {
+      width: 30px;
+      height: 30px;
+      display: block;
+      text-decoration: none;
+      i {
+        color: #ffffff;
+        width: 100%;
+        font-size: 18px;
+        display: block;
+        margin-top: 6px;
+      }
+    }
+    &:hover a i {
+      color: #fff;
+    }
+    &.twitter:hover {
+      background-color: #44ccf6;
+      border-color: #44ccf6;
+    }
+    &.facebook:hover {
+      background-color: #3b5998;
+      border-color: #3b5998;
+    }
+    &.google:hover {
+      background-color: #d13f2d;
+      border-color: #d13f2d;
+    }
+    &.dribbble:hover {
+      background-color: #ea4c89;
+      border-color: #ea4c89;
+    }
+    &.flickr:hover {
+      background-color: #72858c;
+      border-color: #72858c;
+    }
+    &.linkedin:hover {
+      background-color: #0275b6;
+      border-color: #0275b6;
+    }
+    &.skype:hover {
+      background-color: #03aceb;
+      border-color: #03aceb;
+    }
+    &.pinterest:hover {
+      background-color: #cb2027;
+      border-color: #cb2027;
+    }
+    &.rss:hover {
+      background-color: #F16B24;
+      border-color: #F16B24;
+    }
+    &.weibo:hover {
+      background-color: #dd4c39;
+      border-color: #dd4c39;
+    }
+    &.youtube:hover {
+      background-color: #e52d27;
+      border-color: #e52d27;
+    }
+  }
+}
