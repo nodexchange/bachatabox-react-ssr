@@ -1,10 +1,10 @@
 import React from 'react';
 
-import styles from './index.styl';
+// import styles from './index.scss';
 
 const GettingStarted = () => (
-    <section className={styles.root}>
-        To start development on your app, head to
+    <section className="root">
+        Hot To start development on your app, head to
         <code> src/shared/App.js </code>
         and hack away!
     </section>

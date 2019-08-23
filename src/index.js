@@ -1,6 +1,6 @@
 import express from 'express';
 import helmet from 'helmet';
-import shrinkRay from 'shrink-ray';
+import shrinkRay from 'shrink-ray-current';
 import { join } from 'path';
 import { log } from 'winston';
 

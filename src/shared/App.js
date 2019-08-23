@@ -7,7 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import NotFound from './components/NotFound';
 
-import './app.styl';
+// import './app.css';
 
 import UniversalComponent from './components/UniversalComponent';
 
